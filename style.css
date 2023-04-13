@@ -11,6 +11,25 @@ nav{
     display: flex;
    justify-content: space-between;
    align-items: center;
+   background-color: aquamarine; 
+   padding: 0 14px;
+}
+
+
+header{
+    background-color: lightblue;
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+
+h1
+
+a{
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .logo{
