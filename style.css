@@ -70,11 +70,16 @@ li {
 }
 
 
+/*
+ABOUT
 
-#about{
+*/
+
+
+
+#about {
   background-color: yellow;
 }
-
 
 h2 {
   font-size: 60px;
@@ -108,7 +113,9 @@ img {
   margin-bottom: 24px;
 }
 
-#about,#discord,#contact {
+#about,
+#discord,
+#Contact,footer{
   padding: 48px 0;
 }
 
@@ -117,7 +124,7 @@ DISCORD
 
 */
 
-#discord{
+#discord {
   background-color: blueviolet;
 }
 
@@ -126,13 +133,43 @@ CONTACT
 
 */
 
-#contact{
-  background-color:gray;
+#Contact {
+  background-color: gray;
 }
-form{
+form {
   width: 100%;
   max-width: 600px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+}
+
+input, textarea{
+  margin-bottom: 24px;
+  font-size: 20px;
+  padding: 6px 12px;
+}
+
+/*
+FOOTER
+*/
+
+footer{
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__logo{
+  max-width: 480px;
+  margin-bottom: 16px;
+}
+
+.footer__links{
+  margin-bottom: 32px;
+}
+
+.footer__link{
+  padding: 0 16px;
 }
