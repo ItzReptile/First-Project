@@ -69,10 +69,12 @@ li {
   justify-content: center;
 }
 
-#about {
-  padding: 48px 0;
+
+
+#about{
   background-color: yellow;
 }
+
 
 h2 {
   font-size: 60px;
@@ -104,6 +106,10 @@ img {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 24px;
+}
+
+#about,#discord,#contact {
+  padding: 48px 0;
 }
 
 /*
