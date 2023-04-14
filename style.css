@@ -69,14 +69,9 @@ li {
   justify-content: center;
 }
 
-/*
-ABOUT
-
-*/
-
-#about{
+#about {
   padding: 48px 0;
- background-color:yellow;
+  background-color: yellow;
 }
 
 h2 {
@@ -100,13 +95,22 @@ img {
   width: 100%;
 }
 
-.section__desription--wrapper{
-    width: 60%;
-    padding: 0 24px;
+.section__desription--wrapper {
+  width: 60%;
+  padding: 0 24px;
 }
 
-.section__desription--para{
-    font-size: 20px;
-    line-height: 1.5;
-    margin-bottom: 24px;
+.section__desription--para {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+/*
+DISCORD
+
+*/
+
+#discord{
+  background-color: blueviolet;
 }
